@@ -1,0 +1,62 @@
+[
+    {
+        "name" : "Dr Tijo Alex",
+        "details" : "The Clinic is lead by Dr.Tijo Alex, who is a specialist in Orthodontics and has more than 16 years of experience in practice.His friendly and calm nature would make your dental appointments a very pleasing experience.",
+        "specilization" : "Orthodontist",
+        "experience" : "5",
+        "availability" : {
+            "M": "available",
+            "T": "unavailable",
+            "W": "available",
+            "Th": "unavailable",
+            "F": "available",
+            "Sa": "unavailable",
+            "S": "available"
+        }
+    },
+    {
+        "name" : "Dr Tijo Alex",
+        "details" : "The Clinic is lead by Dr.Tijo Alex, who is a specialist in Orthodontics and has more than 16 years of experience in practice.His friendly and calm nature would make your dental appointments a very pleasing experience.",
+        "specilization" : "Orthodontist",
+        "experience" : "5",
+        "availability" : {
+            "M": "available",
+            "T": "unavailable",
+            "W": "available",
+            "Th": "unavailable",
+            "F": "available",
+            "Sa": "unavailable",
+            "S": "available"
+        }
+    },
+    {
+        "name" : "Dr Tijo Alex",
+        "details" : "The Clinic is lead by Dr.Tijo Alex, who is a specialist in Orthodontics and has more than 16 years of experience in practice.His friendly and calm nature would make your dental appointments a very pleasing experience.",
+        "specilization" : "Orthodontist",
+        "experience" : "5",
+        "availability" : {
+            "M": "available",
+            "T": "unavailable",
+            "W": "available",
+            "Th": "unavailable",
+            "F": "available",
+            "Sa": "unavailable",
+            "S": "available"
+        }
+    },
+    {
+        "name" : "Dr Tijo Alex",
+        "details" : "The Clinic is lead by Dr.Tijo Alex, who is a specialist in Orthodontics and has more than 16 years of experience in practice.His friendly and calm nature would make your dental appointments a very pleasing experience.",
+        "specilization" : "Orthodontist",
+        "experience" : "5",
+        "availability" : {
+            "M": "available",
+            "T": "unavailable",
+            "W": "available",
+            "Th": "unavailable",
+            "F": "available",
+            "Sa": "unavailable",
+            "S": "available"
+        }
+    }
+]
