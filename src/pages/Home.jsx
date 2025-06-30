@@ -78,7 +78,8 @@ function Home(){
                                 </div>
                                 {/* <div className='more-info'>
                                     <NavLink to=''>learn more</NavLink>
-                                </div> */}
+                                </div> */} 
+                                {/* removed */}
                             </div>
                         </div>
                     ))}
