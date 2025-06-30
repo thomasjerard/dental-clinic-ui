@@ -76,9 +76,9 @@ function Home(){
                                 <div className='service-description'>
                                     <p>{item.description}</p>
                                 </div>
-                                <div className='more-info'>
+                                {/* <div className='more-info'>
                                     <NavLink to=''>learn more</NavLink>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     ))}
