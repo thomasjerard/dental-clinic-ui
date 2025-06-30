@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1,
+    "name": "Teeth Whitening",
+    "description": "Safe, simple, and fast teeth whitening for a brighter smile",
+    "img_path": "./teeth-whitening.jpg",
+    "link": ""
+  },
+  {
+    "id": 2,
+    "name": "Child Dentistry",
+    "description": "Caring dental treatment for growing smiles.",
+    "img_path": "./child-dentistry.jpg",
+    "link": "Books"
+  },
+  {
+    "id": 3,
+    "name": "Orthodontics",
+    "description": "Expert care for straighter, healthier smiles",
+    "img_path": "./orthodontistry.png",
+    "link": "Home Goods"
+  },
+  {
+    "id": 4,
+    "name": "Teeth Whitening",
+    "description": "Safe, simple, and fast teeth whitening for a brighter smile",
+    "img_path": "./teeth-whitening.jpg",
+    "link": ""
+  },
+  {
+    "id": 5,
+    "name": "Child Dentistry",
+    "description": "Caring dental treatment for growing smiles.",
+    "img_path": "./child-dentistry.jpg",
+    "link": "Books"
+  },
+  {
+    "id": 6,
+    "name": "Orthodontics",
+    "description": "Expert care for straighter, healthier smiles",
+    "img_path": "./orthodontistry.png",
+    "link": "Home Goods"
+  },
+  {
+    "id": 7,
+    "name": "Child Dentistry",
+    "description": "Here's some info about the second item.",
+    "img_path": "./child-dentistry.jpg",
+    "link": "Books"
+  }
+]
