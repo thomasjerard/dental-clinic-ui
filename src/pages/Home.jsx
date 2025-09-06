@@ -1,10 +1,11 @@
 import React, { useRef, useEffect } from 'react';
 import MainButton from '../components/ContactUsButton';
-import servicesData from '../data/services.json';
+import {services} from '../data/services';
 import { NavLink, useLocation } from "react-router"
+import dentalClinicImg from '../assets/dental-clinic-img.jpg';
 import { MdArrowForwardIos, MdArrowBackIos } from "react-icons/md";
 
-function Home(){
+function Home({handleClickAnyWhere}){
   const scrollContainerRef = useRef(null);
 
   const location = useLocation();
@@ -43,7 +44,7 @@ function Home(){
     }
   };
 
-    return <div id="home">
+    return <div id="home" onClick={handleClickAnyWhere}>
         <div id="front-page">
             <div className='front-title'>
                 <h1>Gentle <br/><span className="hightlight-text">Caring</span><br/>Professional</h1>
@@ -53,7 +54,7 @@ function Home(){
                 </div>
             </div>
             <div className="bg-image">
-                <img src="./dental-clinic-img-new.jpg" alt=""/>
+                <img src={dentalClinicImg} alt=""/>
             </div>
         </div>
         <div id="about-us">
@@ -61,16 +62,16 @@ function Home(){
             <h2>Led by expert orthodontist Dr. Tijo Alex, our skilled team of specialists works together to deliver expert care and confident smiles</h2>
             <div className='about-us-buttons'>
                 <MainButton link="/our_team" theme="blue" title="Our Team"/>
-                <MainButton link="/our_story" theme="light" title="Our Story"/>
+                {/* <MainButton link="/our_story" theme="light" title="Our Story"/> */}
             </div>
         </div>
         <services id='services-section'>
             <div id='services'>
                 <h1>Our Services</h1>
                 <div id='services-container' ref={scrollContainerRef}>
-                {servicesData.map(item => (
+                {services.map(item => (
                         <div key={item.id} className="service-card">
-                            <img src={item.img_path} alt=""/>
+                            <img src={item.img} alt=""/>
                             <div className='service-text-wrap'>
                                 <h3>{item.name}</h3>
                                 <div className='service-description'>
@@ -78,8 +79,7 @@ function Home(){
                                 </div>
                                 {/* <div className='more-info'>
                                     <NavLink to=''>learn more</NavLink>
-                                </div> */} 
-                                {/* removed */}
+                                </div> */}
                             </div>
                         </div>
                     ))}

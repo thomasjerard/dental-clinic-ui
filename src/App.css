@@ -4,6 +4,28 @@ body{
     max-width: 100%;
 }
 
+button, a, input, textarea {
+  -webkit-tap-highlight-color: transparent; /* iOS + Android Chrome */
+  -webkit-focus-ring-color: transparent;    /* Android extra focus ring */
+  outline: none;                            /* Prevents outline flash */
+}
+
+button:active, a:active {
+  background-color: transparent; /* remove gray background */
+  color: inherit;                /* keep original text color */
+}
+
+html, body, .app {
+  height: 100%;
+  margin: 0;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
 *, *::before, *::after {
   box-sizing: border-box;
 }
@@ -53,6 +75,8 @@ body{
   text-decoration: none;
 }
 
+
+
 .navbar-buttons :hover{
   cursor: pointer;
   /* font-weight: bold; */
@@ -85,11 +109,11 @@ body{
   text-decoration: none;
 }
 
-.blue :hover{
+/* .blue :hover{
   background-color: #4853f3;
   color: aliceblue;
   text-decoration: none;
-}
+} */
 
 #main-button a{
   margin: 0 2vw;
@@ -99,7 +123,7 @@ body{
 
 .light{
   background-color: #eeeeee;
-  border: 1.5px solid #4550f0;
+  border: 1.5px solid #a3a9ff;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px ;
 }
 
@@ -109,7 +133,7 @@ body{
   color: #5A37F8;
 }
 
-#front-page .light:hover{
+/* #front-page .light:hover{
   border: none;
   box-shadow: rgba(32, 32, 255, 0.25) 0px 10px 20px, rgba(38, 17, 228, 0.3) 0px 6px 6px;
   transform: scale(1.05) translateY(-3px);
@@ -118,7 +142,7 @@ body{
 #front-page .blue:hover{
   box-shadow: rgba(32, 32, 255, 0.25) 0px 10px 20px, rgba(38, 17, 228, 0.3) 0px 6px 6px;
   transform: scale(1.05) translateY(-3px);
-}
+} */
 
 .light:hover a{
   text-decoration: none;
@@ -149,6 +173,7 @@ body{
   flex-direction: row;
   justify-content: space-between;
   height: min-content;
+  align-items: center;
 }
 
 #front-page img{
@@ -160,6 +185,7 @@ body{
 
 .front-title{
     padding: 4vw 8vw;
+    width: 50vw;
     z-index: 1;
 }
 
@@ -206,6 +232,7 @@ body{
 
 .about-us-buttons #main-button{
   opacity: 0.8;
+  font-weight: 500;
 }
 
 #about-us h1, h2{
@@ -213,6 +240,7 @@ body{
   text-align: center;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   padding: 0.75vh;
+  color: #342f3e;
 }
 
 #about-us h1{
@@ -444,20 +472,24 @@ body{
 
 #our-story-container h1{
   text-align: center;
+  justify-content: center;
+  align-content: center;
   font-size: xx-large;
   margin-top: 0%;
+}
+
+@media screen and (max-height: 1500px) {
+  #our-story{
+    min-height: 65vh;
+  }
 }
 
 #our-story-content{
   /* width: 50%; */
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-#our-story-content .content{
-  width: 55%;
-  padding-left: 10%;
+  text-align: center;
+  font-size: large;
+  padding: 0.5% 15%;
 }
 
 #our-story-content p{
@@ -533,7 +565,7 @@ body{
     content: "";
     position: absolute;
     top: 0; left: 0; right: 0; bottom: 0;
-    background-image: url('../public/dental-clinic-img-new.jpg');
+    background-image: url('../public/dental-clinic-img.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -580,8 +612,16 @@ body{
 
 @media screen and (max-width: 1000px) {
 
+  #our-story p{
+    font-size: medium;
+  }
+
   #services{
       margin: 0 calc(20%/6);
+  }
+
+  #scroll-left, #scroll-right{
+    display: none;
   }
 
   .service-card{
@@ -607,7 +647,6 @@ body{
     font-weight: 500;
     font-size: large;
   }  
-
 }
 
 @media screen and (max-width: 900px) {
@@ -630,6 +669,10 @@ body{
   #navbar .navbar-menu-active{
     display: flex;
     flex-direction: column;
+  }
+
+  #navbar .navbar-menu-active{
+    transform: translateY(-5px);
   }
 
   #navbar a{
@@ -717,6 +760,31 @@ body{
 }
 
 @media screen and (max-width: 600px) {
+
+  #about-us-page a{
+    display: none;
+  }
+
+  #front-page h1{
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+  }
+
+  #about-us-page svg{
+    display: none;
+  }
+  
+  #our-story a{
+    display: none;
+  }
+
+  #our-story svg{
+    display: none;
+  }
+
+  #front-page .bg-image{
+    background-image: none;
+  }
+  
    #front-page h1{
     font-size: 3em !important;
    }
@@ -764,7 +832,8 @@ body{
   
   .service-card h3{
     font-size: 1.2em;
-    padding-bottom: 5px;
+    padding-bottom: 18px;
+    line-height: 1.5;
   }
 
   .service-card p{

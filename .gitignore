@@ -5,6 +5,14 @@
 /.pnp
 .pnp.js
 
+# SSH keys
+*.pem
+*.ppk
+*.key
+id_rsa
+id_ed25519
+githubSSHKey*
+
 # testing
 /coverage
 
