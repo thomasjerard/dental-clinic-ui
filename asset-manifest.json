@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/dental-clinic-ui/static/css/main.0fc0da0d.css",
+    "main.js": "/dental-clinic-ui/static/js/main.53989406.js",
+    "static/js/453.5640640d.chunk.js": "/dental-clinic-ui/static/js/453.5640640d.chunk.js",
+    "static/media/doctor-animation.png": "/dental-clinic-ui/static/media/doctor-animation.be7fa1e7af5d583378ea.png",
+    "static/media/oral-cancer.png": "/dental-clinic-ui/static/media/oral-cancer.cc318ead6e0e7cc369b0.png",
+    "static/media/preventive-dentistry.png": "/dental-clinic-ui/static/media/preventive-dentistry.6814a409094572bc939f.png",
+    "static/media/emergency-dental.png": "/dental-clinic-ui/static/media/emergency-dental.383dabb62db697d0712e.png",
+    "static/media/gum-care.png": "/dental-clinic-ui/static/media/gum-care.1f6a8f02a1f29b3ffbac.png",
+    "static/media/dental-clinic.png": "/dental-clinic-ui/static/media/dental-clinic.4cb56496e6f3113d98b5.png",
+    "static/media/dental-clinic-img.jpg": "/dental-clinic-ui/static/media/dental-clinic-img.36855caf68bcac5afaa2.jpg",
+    "static/media/teeth-whitening.jpg": "/dental-clinic-ui/static/media/teeth-whitening.4075c37e307566afb74b.jpg",
+    "static/media/root-canal-treatment.jpeg": "/dental-clinic-ui/static/media/root-canal-treatment.0294411e699c15cd455b.jpeg",
+    "static/media/oral-surgery.jpg": "/dental-clinic-ui/static/media/oral-surgery.3242c9dd83803fe0e50a.jpg",
+    "static/media/orthodontistics.png": "/dental-clinic-ui/static/media/orthodontistics.9ac590eb7089d13f33ec.png",
+    "static/media/dental-implant.jpg": "/dental-clinic-ui/static/media/dental-implant.31bf35a772e47e38caed.jpg",
+    "static/media/cosmetic-dentistry.jpg": "/dental-clinic-ui/static/media/cosmetic-dentistry.3dae53bfbbc69a156cb0.jpg",
+    "static/media/child-dentistry.jpg": "/dental-clinic-ui/static/media/child-dentistry.710efa4136489dc4ac43.jpg",
+    "static/media/prosthodontics.jpg": "/dental-clinic-ui/static/media/prosthodontics.0c3ad6b482db0cbeb955.jpg",
+    "index.html": "/dental-clinic-ui/index.html",
+    "main.0fc0da0d.css.map": "/dental-clinic-ui/static/css/main.0fc0da0d.css.map",
+    "main.53989406.js.map": "/dental-clinic-ui/static/js/main.53989406.js.map",
+    "453.5640640d.chunk.js.map": "/dental-clinic-ui/static/js/453.5640640d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0fc0da0d.css",
+    "static/js/main.53989406.js"
+  ]
+}
