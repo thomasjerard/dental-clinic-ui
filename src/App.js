@@ -1,6 +1,6 @@
 import './App.css';
-import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
-import { useEffect } from 'react';
+import { HashRouter , Routes, Route } from 'react-router-dom';
+import React, { useState } from 'react';
 import Home from "./pages/Home";
 import Navbar from './components/Navbar';
 import OurTeam from './pages/OurTeam';
@@ -9,18 +9,23 @@ import OurStory from './pages/OurStory';
 
 function App() {
 
+  const [isMenuBarOpen, setMenuBar] = useState(false);
+  const handleClickAnyWhere = () => {
+      setMenuBar(false);
+  }
+
   return (
     <div className="App">
-      <BrowserRouter >
-        <Navbar/>
+      <HashRouter>
+        <Navbar setMenuBar={setMenuBar} isMenuBarOpen={isMenuBarOpen}/>
         <div id="space"></div>
         <Routes>
-          <Route path="/" element={<Home/>}/>
-          <Route path="/our_team" element={<OurTeam/>}/>
-          <Route path="/our_story" element={<OurStory/>}/>
+          <Route path="/" element={<Home handleClickAnyWhere={handleClickAnyWhere}/>} />
+          <Route path="/our_team" element={<OurTeam handleClickAnyWhere={handleClickAnyWhere}/>} />
+          <Route path="/our_story" element={<OurStory handleClickAnyWhere={handleClickAnyWhere}/>} />
         </Routes>
-        <Footbar/>
-      </BrowserRouter>
+        <Footbar handleClickAnyWhere={handleClickAnyWhere}/>
+      </HashRouter>
     </div>
   );
 }

@@ -1,11 +1,21 @@
-import React from 'react'
-import { NavLink } from "react-router"
-import { IoMdCall } from "react-icons/io";
+import { NavLink } from "react-router-dom";
 
-function MainButton({link, theme, title}){
-    return <div id="main-button" className={theme}>
-            <NavLink to={link}>{title}</NavLink>
+function MainButton({ link, theme, title, onClick }) {
+  return (
+    <div id="main-button" className={theme}>
+      <NavLink
+        to={link}
+        onClick={(e) => {
+          setTimeout(() => {
+            if (onClick) onClick();
+          }, 0); 
+        }}
+      >
+        {title}
+      </NavLink>
     </div>
+  );
 }
 
 export default MainButton;
+

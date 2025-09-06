@@ -1,62 +1,55 @@
 [
-    {
-        "name" : "Dr Tijo Alex",
-        "details" : "The Clinic is lead by Dr.Tijo Alex, who is a specialist in Orthodontics and has more than 16 years of experience in practice.His friendly and calm nature would make your dental appointments a very pleasing experience.",
-        "specilization" : "Orthodontist",
-        "experience" : "5",
-        "availability" : {
-            "M": "available",
-            "T": "unavailable",
-            "W": "available",
-            "Th": "unavailable",
-            "F": "available",
-            "Sa": "unavailable",
-            "S": "available"
-        }
-    },
-    {
-        "name" : "Dr Tijo Alex",
-        "details" : "The Clinic is lead by Dr.Tijo Alex, who is a specialist in Orthodontics and has more than 16 years of experience in practice.His friendly and calm nature would make your dental appointments a very pleasing experience.",
-        "specilization" : "Orthodontist",
-        "experience" : "5",
-        "availability" : {
-            "M": "available",
-            "T": "unavailable",
-            "W": "available",
-            "Th": "unavailable",
-            "F": "available",
-            "Sa": "unavailable",
-            "S": "available"
-        }
-    },
-    {
-        "name" : "Dr Tijo Alex",
-        "details" : "The Clinic is lead by Dr.Tijo Alex, who is a specialist in Orthodontics and has more than 16 years of experience in practice.His friendly and calm nature would make your dental appointments a very pleasing experience.",
-        "specilization" : "Orthodontist",
-        "experience" : "5",
-        "availability" : {
-            "M": "available",
-            "T": "unavailable",
-            "W": "available",
-            "Th": "unavailable",
-            "F": "available",
-            "Sa": "unavailable",
-            "S": "available"
-        }
-    },
-    {
-        "name" : "Dr Tijo Alex",
-        "details" : "The Clinic is lead by Dr.Tijo Alex, who is a specialist in Orthodontics and has more than 16 years of experience in practice.His friendly and calm nature would make your dental appointments a very pleasing experience.",
-        "specilization" : "Orthodontist",
-        "experience" : "5",
-        "availability" : {
-            "M": "available",
-            "T": "unavailable",
-            "W": "available",
-            "Th": "unavailable",
-            "F": "available",
-            "Sa": "unavailable",
-            "S": "available"
-        }
-    }
+  {
+    "name": "Dr Tijo Alex",
+    "specilization": "Orthodontist",
+    "img": "orthodontistry.png",
+    "details": "Dr. Tijo Alex leads the clinic with over 16 years of experience in Orthodontics. His friendly and calm nature ensures that every dental appointment is a comfortable experience."
+  },
+  {
+    "name": "Dr Jijo Paul",
+    "specilization": "Implantologist",
+    "img": "orthodontistry.png",
+    "details": "Dr. Jijo Paul is an expert in dental implants, providing patients with permanent, natural-looking solutions for missing teeth."
+  },
+  {
+    "name": "Dr Lijo Issac",
+    "specilization": "Prosthodontist",
+    "img": "orthodontistry.png",
+    "details": "Dr. Lijo Issac specializes in crowns, bridges, and dentures, helping patients restore their smiles and improve oral function."
+  },
+  {
+    "name": "Dr Arun Babu, MDS",
+    "specilization": "Oral Surgeon",
+    "details": "Dr. Arun Babu is skilled in complex oral surgeries, including extractions, corrective jaw procedures, and facial trauma care."
+  },
+  {
+    "name": "Dr Balaji R. Shenoy, MDS",
+    "img": "orthodontistry.png",
+    "specilization": "Oral Surgeon",
+    "details": "Dr. Balaji R. Shenoy specializes in advanced oral and maxillofacial surgery, with expertise in corrective and reconstructive procedures."
+  },
+  {
+    "name": "Dr Athulya, MDS",
+    "img": "orthodontistry.png",
+    "specilization": "Root Canal Specialist",
+    "details": "Dr. Athulya is an endodontist focusing on painless root canal treatments to save natural teeth and preserve smiles."
+  },
+  {
+    "name": "Dr Jacob Mohan, MDS",
+    "img": "orthodontistry.png",
+    "specilization": "Gum Specialist",
+    "details": "Dr. Jacob Mohan provides expert gum care and periodontal treatments to ensure long-lasting oral health."
+  },
+  {
+    "name": "Dr Unni Mohan, MDS",
+    "img": "orthodontistry.png",
+    "specilization": "Child Specialist",
+    "details": "Dr. Unni Mohan is dedicated to children’s dental health, offering gentle and specialized care for young patients."
+  },
+  {
+    "name": "Dr Angelina Julie",
+    "img": "orthodontistry.png",
+    "specilization": "Dental Surgeon",
+    "details": "Dr. Angelina Julie practices general dentistry, focusing on preventive and restorative treatments for patients of all ages."
+  }
 ]
