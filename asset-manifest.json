@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/dental-clinic-ui/static/css/main.0fc0da0d.css",
+    "main.css": "/dental-clinic-ui/static/css/main.a093d613.css",
     "main.js": "/dental-clinic-ui/static/js/main.53989406.js",
     "static/js/453.5640640d.chunk.js": "/dental-clinic-ui/static/js/453.5640640d.chunk.js",
     "static/media/doctor-animation.png": "/dental-clinic-ui/static/media/doctor-animation.be7fa1e7af5d583378ea.png",
@@ -19,12 +19,12 @@
     "static/media/child-dentistry.jpg": "/dental-clinic-ui/static/media/child-dentistry.710efa4136489dc4ac43.jpg",
     "static/media/prosthodontics.jpg": "/dental-clinic-ui/static/media/prosthodontics.0c3ad6b482db0cbeb955.jpg",
     "index.html": "/dental-clinic-ui/index.html",
-    "main.0fc0da0d.css.map": "/dental-clinic-ui/static/css/main.0fc0da0d.css.map",
+    "main.a093d613.css.map": "/dental-clinic-ui/static/css/main.a093d613.css.map",
     "main.53989406.js.map": "/dental-clinic-ui/static/js/main.53989406.js.map",
     "453.5640640d.chunk.js.map": "/dental-clinic-ui/static/js/453.5640640d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0fc0da0d.css",
+    "static/css/main.a093d613.css",
     "static/js/main.53989406.js"
   ]
 }
