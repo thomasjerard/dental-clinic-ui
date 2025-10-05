@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.1c038765.css",
+    "main.css": "/static/css/main.2abbf03d.css",
     "main.js": "/static/js/main.3f398b9e.js",
     "static/js/453.5640640d.chunk.js": "/static/js/453.5640640d.chunk.js",
     "static/media/doctor-animation.png": "/static/media/doctor-animation.be7fa1e7af5d583378ea.png",
@@ -19,12 +19,12 @@
     "static/media/child-dentistry.jpg": "/static/media/child-dentistry.710efa4136489dc4ac43.jpg",
     "static/media/prosthodontics.jpg": "/static/media/prosthodontics.0c3ad6b482db0cbeb955.jpg",
     "index.html": "/index.html",
-    "main.1c038765.css.map": "/static/css/main.1c038765.css.map",
+    "main.2abbf03d.css.map": "/static/css/main.2abbf03d.css.map",
     "main.3f398b9e.js.map": "/static/js/main.3f398b9e.js.map",
     "453.5640640d.chunk.js.map": "/static/js/453.5640640d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1c038765.css",
+    "static/css/main.2abbf03d.css",
     "static/js/main.3f398b9e.js"
   ]
 }
