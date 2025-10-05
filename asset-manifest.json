@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.2abbf03d.css",
-    "main.js": "/static/js/main.3f398b9e.js",
-    "static/js/453.5640640d.chunk.js": "/static/js/453.5640640d.chunk.js",
+    "main.js": "/static/js/main.ab63f81a.js",
+    "static/js/453.ff935552.chunk.js": "/static/js/453.ff935552.chunk.js",
     "static/media/doctor-animation.png": "/static/media/doctor-animation.be7fa1e7af5d583378ea.png",
     "static/media/oral-cancer.png": "/static/media/oral-cancer.cc318ead6e0e7cc369b0.png",
     "static/media/preventive-dentistry.png": "/static/media/preventive-dentistry.6814a409094572bc939f.png",
@@ -20,11 +20,11 @@
     "static/media/prosthodontics.jpg": "/static/media/prosthodontics.0c3ad6b482db0cbeb955.jpg",
     "index.html": "/index.html",
     "main.2abbf03d.css.map": "/static/css/main.2abbf03d.css.map",
-    "main.3f398b9e.js.map": "/static/js/main.3f398b9e.js.map",
-    "453.5640640d.chunk.js.map": "/static/js/453.5640640d.chunk.js.map"
+    "main.ab63f81a.js.map": "/static/js/main.ab63f81a.js.map",
+    "453.ff935552.chunk.js.map": "/static/js/453.ff935552.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2abbf03d.css",
-    "static/js/main.3f398b9e.js"
+    "static/js/main.ab63f81a.js"
   ]
 }
