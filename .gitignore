@@ -12,6 +12,8 @@
 id_rsa
 id_ed25519
 githubSSHKey*
+thomasSSH*
+*.pub
 
 # testing
 /coverage

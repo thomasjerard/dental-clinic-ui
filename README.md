@@ -1,70 +1,129 @@
-# Getting Started with Create React App
+# Dr. Tijo Alex Dental Care — Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Official website for **Dr. Tijo Alex Dental Care**, a multi-specialist dental clinic based in Alappuzha, Kerala, India. Built with React 19 and deployed to [tijoalexdentalcare.in](https://tijoalexdentalcare.in).
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **Home page** — hero section, "Why Choose Us?" overview, and a horizontally scrollable services carousel
+- **Our Team page** — profiles for each specialist doctor with specialisation details
+- **Our Story page** — clinic background and history
+- **Contact Us section** — phone, WhatsApp, email, and address in the footer
+- **Responsive navbar** — hamburger menu for mobile with smooth hash-link scroll navigation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Tech Stack
 
-### `npm test`
+| Technology | Version | Purpose |
+|---|---|---|
+| React | 19 | UI framework |
+| React Router DOM | 7 | Client-side routing |
+| React Icons | 5 | Icon library |
+| Create React App | 5 | Build tooling |
+| gh-pages | 6 | GitHub Pages deployment |
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## Project Structure
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+src/
+├── assets/          # Images for services, doctors, and clinic
+├── components/
+│   ├── Navbar.jsx          # Top navigation bar with hamburger menu
+│   ├── Footbar.jsx         # Footer with contact details
+│   ├── ContactUsButton.jsx # Reusable CTA button
+│   └── ImageGallery.jsx    # Image gallery component
+├── data/
+│   ├── services.js         # Services list with imported images
+│   ├── services.json       # (legacy) services data
+│   └── doctor-details.json # Doctor profiles and specialisations
+├── pages/
+│   ├── Home.jsx            # Landing page
+│   ├── OurTeam.jsx         # Team/doctors page
+│   └── OurStory.jsx        # Clinic story page
+├── App.js                  # Root component with HashRouter and routes
+└── index.js                # Entry point
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Services
 
-### `npm run eject`
+The clinic offers 12 dental services:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Orthodontics
+- Dental Implants
+- Prosthodontics
+- Oral Surgery
+- Root Canal Treatment
+- Gum Care
+- Child Dentistry
+- Cosmetic Dentistry
+- Teeth Whitening
+- Preventive Dentistry
+- Oral Cancer Screening
+- Emergency Care
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Getting Started
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Prerequisites
 
-## Learn More
+- Node.js 18+
+- npm 9+
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Install dependencies
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+npm install
+```
 
-### Code Splitting
+### Run locally
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+npm start
+```
 
-### Analyzing the Bundle Size
+Opens [http://localhost:3000](http://localhost:3000) in development mode. The page hot-reloads on file changes.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Run tests
 
-### Making a Progressive Web App
+```bash
+npm test
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Build for production
 
-### Advanced Configuration
+```bash
+npm run build
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Outputs an optimised production build to the `build/` directory.
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Deployment
 
-### `npm run build` fails to minify
+The site is deployed to GitHub Pages via the `gh-pages` package.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+npm run deploy
+```
+
+This runs `npm run build` first (via the `predeploy` script), then pushes the `build/` directory to the `gh-pages` branch. The live site is served at [https://tijoalexdentalcare.in](https://tijoalexdentalcare.in).
+
+---
+
+## Contact
+
+| Channel | Details |
+|---|---|
+| Phone | 04772 970297 |
+| WhatsApp | 9847048002 |
+| Email | drtijoalex@yahoo.co.in |
+| Email | info@drtijoalexorthodonticcentre.com |
+| Address | Thevarcad Building, North of Vazhicherry Bridge, Alappuzha – 688001 |
